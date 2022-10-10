@@ -56,7 +56,7 @@ module.exports = function(server){
     server.route({
         method: 'GET',
 
-        path: '/calculator/multi/{num1}*{num2}',
+        path: '/calculator/mul/{num1}*{num2}',
         handler: function (request, h) {
 
             const num1 = parseInt(request.params.num1);
